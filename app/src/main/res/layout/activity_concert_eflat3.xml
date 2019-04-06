@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConcertEFlat3">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/flute3" android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="144dp"
+            android:text="@string/bb_answer" android:textSize="24sp" android:textAlignment="center"
+            tools:text="Starts on Bb with Bb in key "/>
+    <TextView
+            android:text="@string/bbfrench"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/bbfrench" tools:text="Major Bb is Concert Eb"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="89dp" android:textSize="24sp"/>
+    <Button
+            android:text="@string/majorbbsound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button2" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="13dp"/>
+</RelativeLayout>

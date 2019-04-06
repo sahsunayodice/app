@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConcertE1">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/flute2" android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="185dp"
+            tools:text="Starts at E and has F#, C#,G#,D# "
+            android:text="@string/starts_on_e_with_f_g_c_d" android:textSize="24sp" android:textAlignment="center"/>
+    <TextView
+            android:text="@string/eflute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/eflute" android:textSize="24sp"
+            tools:text="Major E is Concert E" android:layout_alignParentTop="true"
+            android:layout_marginTop="102dp" android:layout_centerHorizontal="true" android:textAlignment="center"/>
+    <Button
+            android:text="@string/majoresound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/MajorESound" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="24dp"/>
+</RelativeLayout>

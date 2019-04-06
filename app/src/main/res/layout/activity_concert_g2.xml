@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConcertG2">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/gfluteanswer" android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="213dp" tools:text="Starts on G with F#"
+            android:text="@string/gfluteanswer" android:textSize="24sp" android:textAlignment="center"/>
+    <TextView
+            android:text="@string/gflute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/gflute" android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="150dp" android:textSize="24sp"
+            tools:text="Major G is Concert G"/>
+    <Button
+            android:text="@string/majorgsound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/button6" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="35dp"/>
+</RelativeLayout>

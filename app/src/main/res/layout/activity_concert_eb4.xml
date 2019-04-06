@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConcertEb4">
+
+    <TextView
+            android:text="@string/major_c_is_concert_eb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView11"
+            android:layout_alignParentTop="true" android:layout_marginTop="128dp"
+            android:textAlignment="center" android:textSize="24sp" android:layout_centerHorizontal="true"/>
+    <TextView
+            android:text="@string/starts_on_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView12" android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="212dp" android:textSize="24sp"
+            android:textAlignment="center"/>
+    <Button
+            android:text="@string/playcsound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/MajorCSound" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="11dp"/>
+</RelativeLayout>

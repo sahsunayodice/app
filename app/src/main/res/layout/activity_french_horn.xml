@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FrenchHorn">
+
+    <TextView
+            android:text="@string/french_horn_major_scales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/major"
+            android:layout_alignParentTop="true" android:layout_marginTop="12dp"
+            android:layout_centerHorizontal="true" android:fontFamily="casual" android:textSize="18sp"/>
+    <Button
+            android:text="@string/c"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content" android:id="@+id/majorC4"
+            android:layout_alignParentTop="true" android:layout_marginTop="72dp"
+            android:background="@color/colorPrimary" android:textSize="18sp"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="@string/Major_f1"
+            android:layout_width="53dp"
+            android:layout_height="wrap_content" android:id="@+id/majorF4"
+            android:background="@color/colorPrimary"
+            android:fontFamily="casual" android:textSize="18sp"
+            android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="156dp"/>
+    <Button
+            android:text="@string/b_flat"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content" android:id="@+id/majorBFlat4"
+            android:textSize="18sp"
+            android:fontFamily="casual" android:background="@color/colorPrimary"
+            android:layout_centerInParent="true"/>
+    <Button
+            android:text="@string/e"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content" android:id="@+id/majorE4"
+            android:fontFamily="casual"
+            android:background="@color/colorPrimary" android:textSize="18sp"
+            android:layout_above="@+id/frenchhornfact" android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="@string/g"
+            android:layout_width="59dp"
+            android:layout_height="wrap_content" android:id="@+id/majorG4"
+            android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="173dp" android:fontFamily="casual" android:textSize="18sp"
+            android:background="@color/colorPrimary"/>
+    <Button
+            android:text="@string/frenchhornfact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/frenchhornfact" android:layout_alignParentStart="true"
+            android:layout_marginStart="11dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="13dp" android:fontFamily="casual" android:textAllCaps="false"
+            android:background="@color/colorAccent"/>
+</RelativeLayout>

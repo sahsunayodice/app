@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.shauna.app">
+
+    <application
+            android:allowBackup="true"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="andriod.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Clarinet">
+        </activity>
+        <activity android:name=".Saxophone">
+        </activity>
+        <activity android:name=".Flute">
+        </activity>
+        <activity android:name=".FrenchHorn">
+        </activity>
+        <activity android:name=".ConcertBFlat1">
+        </activity>
+        <activity android:name=".ConcertAFlat1">
+        </activity>
+        <activity android:name=".ConcertF1">
+        </activity>
+        <activity android:name=".ConcertEFlat1">
+        </activity>
+        <activity android:name=".ConcertD1">
+        </activity>
+        <activity android:name=".ConcertG1">
+        </activity>
+        <activity android:name=".ConcertBFlat2">
+        </activity>
+        <activity android:name=".ConcertF2">
+        </activity>
+        <activity android:name=".ConcertC1">
+        </activity>
+        <activity android:name=".ConcertBFlat3">
+        </activity>
+        <activity android:name=".ConcertA1">
+        </activity>
+        <activity android:name=".ConcertDFlat2">
+        </activity>
+        <activity android:name=".ConcertAFlat2">
+        </activity>
+        <activity android:name=".ConcertC2">
+        </activity>
+        <activity android:name=".ConcertE1">
+        </activity>
+        <activity android:name=".ConcertF3">
+        </activity>
+        <activity android:name=".ConcertG2">
+        </activity>
+        <activity android:name=".ConcertEFlat2">
+        </activity>
+        <activity android:name=".ConcertBFlat4">
+        </activity>
+        <activity android:name=".ConcertEFlat3">
+        </activity>
+        <activity android:name=".ConcertEb4">
+        </activity>
+        <activity android:name=".FunFactFlute">
+        </activity>
+        <activity android:name=".FunFactClarinet">
+        </activity>
+        <activity android:name=".factsax">
+        </activity>
+        <activity android:name=".frenchhornfact">
+        </activity>
+    </application>
+
+</manifest>

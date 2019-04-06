@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ConcertD1">
+
+    <TextView
+            android:text="@string/major_e_is_concert_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/D1" android:textSize="24sp"
+            android:textAlignment="center" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="152dp"/>
+    <TextView
+            android:text="@string/starts_on_e_with_f_g_c_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ClarinetDStart" android:textSize="14sp"
+            android:textAlignment="center" android:layout_centerHorizontal="true" android:layout_alignParentTop="true"
+            android:layout_marginTop="225dp"/>
+    <Button
+            android:text="@string/majoresound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/MajorESound" android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true" android:layout_marginBottom="35dp"/>
+</RelativeLayout>

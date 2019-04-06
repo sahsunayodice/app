@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Flute">
+
+    <Button
+            android:text="@string/g"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content" android:id="@+id/FlutemajorG3"
+            android:background="@color/colorPrimary" android:fontFamily="casual"
+            android:textSize="18sp" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="80dp"/>
+    <Button
+            android:text="@string/e"
+            android:layout_width="64dp"
+            android:layout_height="wrap_content" android:id="@+id/FlutemajorE3"
+            android:fontFamily="casual" android:textSize="18sp" android:background="@color/colorPrimary"
+            android:layout_centerInParent="true"/>
+    <Button
+            android:text="@string/Major_f1"
+            android:layout_width="57dp"
+            android:layout_height="wrap_content" android:id="@+id/FlutemajorF3"
+            android:fontFamily="casual" android:textSize="18sp"
+            android:background="@color/colorPrimary"
+            android:layout_alignParentTop="true" android:layout_marginTop="170dp"
+            android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="@string/b_flat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/FlutemajorBFlat3"
+            android:background="@color/colorPrimary" android:fontFamily="casual" android:textSize="18sp"
+            android:layout_centerHorizontal="true" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="178dp"/>
+    <TextView
+            android:text="@string/flute_major_scale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/FluteMajorScales"
+            android:layout_alignParentTop="true" android:layout_marginTop="17dp"
+            android:fontFamily="casual" android:textSize="18sp"
+            android:textAlignment="center" android:layout_centerHorizontal="true"/>
+    <Button
+            android:text="@string/c"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content" android:id="@+id/FlutemajorC3"
+            android:background="@color/colorPrimary" android:fontFamily="casual"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true" android:layout_marginTop="74dp"/>
+    <Button
+            android:text="@string/flutefact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/FunFactFlute" android:layout_alignParentStart="true"
+            android:layout_marginStart="18dp" android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp" android:background="@color/colorAccent" android:textAllCaps="false"
+            android:fontFamily="casual" android:textAlignment="center"/>
+</RelativeLayout>
